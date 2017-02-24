@@ -1,0 +1,27 @@
+/*middle content*/
+div#midContent{margin:0 auto 60px auto;  width: 80%;}
+ul#ulWrap{width: 100%;}
+ul li{list-style: none;}
+ul#ulWrap h3{
+  color: 	#5B5B5B;
+  font-size: 25px;
+  text-align: center;
+  margin: 60px auto 10px auto;
+}
+ul.contentList li{
+  text-align: left;
+  border-top: 1px solid  silver;
+  line-height: 1em;
+  height: 1em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+ul.contentList li:last-child{border-bottom: 1px solid silver;}
+ul.contentList li:hover{background-color: #F0F0F0; }
+ul.contentList li a{text-align: left;font-size: 18px;}
+ul.contentList li a:link,ul.contentList li a:visited{
+  text-decoration: none;
+  color: 	#3C3C3C;
+}
+ul.contentList li a:hover{color:black; }
+ul.contentList li span{float: right;}

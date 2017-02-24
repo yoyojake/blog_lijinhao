@@ -1,0 +1,20 @@
+/*contain*/
+#wrap1{width: 800px;margin: 0 auto;}
+div.wrap3{padding: 15px;margin: 0;}
+div.content .date{color: silver;margin-left: 5px;}
+div.content h1{font-weight: bolder;margin: 10px 0;}
+div.content h1 a:link,div.content h1 a:visited{color: #50585D;text-decoration: none;}
+div.content h1 a:hover{color:#1099C9;}
+div.content .substance p{margin: 30px 0;line-height: 22px;}
+div.content>p a:link,div.content>p a:visited{text-decoration: none; font-size: 14px;color:#1099C9; }
+div.content>p a:hover{text-decoration: underline;}
+div.content .bottomLink{margin-left: 10px;}
+div.content .bottom{width: 100%;height: 8px;}
+div.content .bottom div{float: left;}
+div.content .bottom .bottom1{width: 45%;margin: 5px;height: 1px;background: silver;}
+div.content .bottom .bottom2{width: 10px;margin:0 2%;height: 10px;border-radius: 6px;-moz-border-radius:6px;background: silver;}
+div.content .bottom .bottom3{width: 45%;margin: 5px;height: 1px;background: silver;}
+#bottomNext{width: 100%;height: 200px;}
+#bottomNext p{border: 2px solid silver;border-radius: 26px;-moz-border-radius:26px;width: 50px;height: 50px;text-align: center;line-height: 50px;margin: 75px 0 auto auto;}
+#bottomNext p a:link,#bottomNext p a:visited{color: black;text-decoration: none;}
+#bottomNext p:hover{border: 2px solid #1099C9; background-color: silver;}
