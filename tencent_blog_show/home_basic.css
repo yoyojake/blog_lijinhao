@@ -1,0 +1,42 @@
+div,form,p,input,span,img,textarea,ul,li{padding: 0;margin:0;}
+ul li{list-style: none;}
+div#wrap{width: 600px;margin:10px auto 0 auto;border: 1px solid silver;
+          padding:15px;}
+div#username{height: 30px;margin-top: 15px;margin-bottom: 5px;}
+div#username input,div#username>div{float: left;}
+div#username input{height: 20px;width: 156px;display: block;margin-top: 4px;}
+div#username>div{width: 424px;height: 30px;margin-left: 10px;}
+div#picture{width: 384px;height: 30px;float: left;overflow: hidden;}
+div#picture img{margin-left: 2px;height: 30px;display: block;float: left;}
+div#picture img:hover{position: relative;height: 26px;border: 2px solid green;}
+div#left,div#right{width: 0;height: 0;
+                      display: inline;}
+div#left{float: left;border-top: 10px solid transparent;border-right: 15px solid green;
+         border-bottom: 10px solid transparent;margin:5px 5px auto 0;}
+div#right{float: right;border-top: 10px solid transparent;border-left: 15px solid green;
+         border-bottom: 10px solid transparent;margin:5px 0 auto 5px;}
+div#right:hover,div#left:hover{border-right-color: maroon;border-left-color: maroon;cursor: pointer;}
+div#wrap form textarea{margin-top: 5px;}
+p.bottom{height: 40px; line-height: 40px;font-size: 11px;text-align: right;margin-bottom: 10px;}
+p.bottom span{font-size: 20px;}
+p.bottom input{margin:auto 80px auto 20px;width: 100px;height: 30px;font-size: 16px;
+                border: 1px solid maroon;border-radius: 10px;background-color: maroon;
+                color: white;outline: none;}
+/*content css*/
+div#content>div{height: 30px;background: #888888;padding-top: 10px;margin-top: 30px;}
+div#content>div>p{font-size: 14px;background-color: white;width: 100px;
+                height: 30px;line-height: 40px;margin-left: 20px;border:1px solid white;
+                border-top-left-radius: 10px;border-top-right-radius: 10px;line-height: 30px;text-align: center;}
+div#content ul{width: 100%;}
+div#content ul li{border-bottom: 2px dotted silver;width: 100%;height: 70px;padding-top: 10px;}
+div#content ul li:hover{background: #FFEFD5;}
+div#content ul li img{float: left;margin:0 10px 10px 10px;}
+div#content ul li div{margin-left: 20px;line-height: 20px;font-size: 14px;}
+li.content div span a:link,li.content div span a:visited{text-decoration: none;
+                      color: #00DDDD; }
+li.content div span a:hover{text-decoration: underline;color: red;}
+li.content div span:first-child+span{word-wrap:break-word;}
+li.content div p{font-size: 12px;color: silver;}
+li.content div p span.date{float: left;}
+li.content div p span.delete{float: right;margin-right: 10px;display: none;}
+li.content div p span.delete:hover{border-bottom: 1px solid silver;cursor: pointer;}
